@@ -1,4 +1,4 @@
-<form novalidate #form="ngForm">
+<form novalidate autocomplete="off" #form="ngForm" (submit)="onSubmit(form)">
     <input type="hidden" name="paymentDetailId" value="service.formData.paymentDetailId">
     <div class="form-group">
         <label>CARD OWNER NAME</label>
@@ -29,7 +29,12 @@
                 [class.invalid] = "expirationDate.invalid && expirationDate.touched">
         </div>
     </div>
-    <div class="form-group">
-        <button class="btn btn-info btn-lg btn-block" type="submit" [disabled]="form.invalid">SUBMIT</button>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <button (click)="insertRecord(form)" type="button" [disabled] = "form.invalid" class="btn btn-success btn-lg btn-block"><i class="fas fa-plus-circle"></i> Add</button>
+        </div>
+        <div class="form-group col-md-6">
+            <button (click)="updateRecord(form)" type="button" [disabled] = "form.invalid" class="btn btn-success btn-lg btn-block"><i class="fas fa-edit"></i> Update</button>
+        </div>
     </div>
 </form>

@@ -7611,11 +7611,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\Asp.Net-Core-5.0-Web-API-CRUD-with-Angular-11\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj",
+      "projectUniqueName": "D:\\Code\\.NetCore5AndAngular11\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj",
       "projectName": "PaymentAPI",
-      "projectPath": "D:\\Code\\Asp.Net-Core-5.0-Web-API-CRUD-with-Angular-11\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj",
+      "projectPath": "D:\\Code\\.NetCore5AndAngular11\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj",
       "packagesPath": "C:\\Users\\travi\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\Asp.Net-Core-5.0-Web-API-CRUD-with-Angular-11\\PaymentAPI\\PaymentAPI\\obj\\",
+      "outputPath": "D:\\Code\\.NetCore5AndAngular11\\PaymentAPI\\PaymentAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
